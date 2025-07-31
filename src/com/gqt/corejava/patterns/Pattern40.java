@@ -6,7 +6,6 @@ public class Pattern40 {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the size:");
 		int n=sc.nextInt();
-		char ch='A';
 		for(int i=0;i<=n;i++) {
 			for(int j=i;j<=n;j++) {
 				System.out.print(" ");
@@ -19,6 +18,6 @@ public class Pattern40 {
 	            }
 	            System.out.println();
 	}
-
+sc.close();
 }
 }
